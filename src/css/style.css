@@ -19,6 +19,11 @@
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
+    .tab-border {
+        border: 2px solid ;
+        border-radius: 10px;
+        padding: 10px;
+    }
     .tabs {
       display: flex;
       border-bottom: 2px solid #ccc;
@@ -41,18 +46,27 @@
 
     .tab-content {
       display: none;
-      padding: 20px;
-      background: #0e0d0d;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      min-height: 100px;
+      
     }
 
     .tab-content.active {
       display: block;
-      background-color: #000;
-      color: #fff;
+      /* background-color: #000; */
+      /* color: #fff; */
       text-align: center;
+      
+    }
+    .color-block-container {
+        margin: 20px 0;
+        background-color: #000;
+        color: #fff;
+        width: 536px;
+        height: 90px;
+        border-radius: 10px;
+    }
+    .color-block-container p{
+        align-items: center;
+        justify-content: center;
     }
 
     @media (max-width: 768px) {
