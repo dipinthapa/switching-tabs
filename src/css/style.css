@@ -34,7 +34,7 @@
       padding: 12px 20px;
       cursor: pointer;
       font-weight: 600;
-      color: #777;
+      color: #c7c6c6;
       border-bottom: 3px solid transparent;
       transition: 0.3s;
     }
@@ -60,17 +60,39 @@
         margin: 20px 0;
         background-color: #000;
         color: #fff;
-        width: 536px;
         height: 90px;
         border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .color-block-container p{
         align-items: center;
         justify-content: center;
     }
 
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
       .tabs-container {
         width: 100%;
       }
+    } */
+    @media  (max-width: 640px) {
+      body{
+        padding: 0;
+      }
+      .tabs{
+        width: 314px;
+        margin-top: 10px;
+        gap: 38px;
+        overflow-x: scroll; 
+        overflow-y: hidden;
+        white-space: nowrap;
+        justify-content: space-between;
+      }
+      .tab {
+        padding: 0;
+      }
+      /* .tab-content p{
+        font-size: 12px;
+      } */
     }
